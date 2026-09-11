@@ -1,0 +1,720 @@
+2026-08-27T04:00:22.674Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:00:22.835Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:26:48.288Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:26:48.334Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:29:10.489Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:29:10.555Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:32:38.913Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:32:39.165Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:32:43.377Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:32:43.456Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:32:51.211Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T04:32:51.368Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T05:30:03.606Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-27T05:30:03.663Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow\server\routes\organization.js:230:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-28T04:37:42.037Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-28T04:37:42.130Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-28T04:54:47.579Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-28T04:54:47.678Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-28T04:54:53.019Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-28T04:54:53.046Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T05:34:51.533Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T05:34:51.643Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T06:00:41.474Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T06:00:41.547Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T09:12:14.640Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T09:12:14.751Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T09:42:21.041Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T09:42:21.103Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T10:11:33.888Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T10:11:33.987Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T10:58:15.426Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T10:58:15.529Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T11:36:23.785Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T11:36:23.913Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T11:37:07.436Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T11:37:07.594Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T11:59:15.294Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T11:59:15.368Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T12:08:51.650Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-08-31T12:08:51.779Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T05:27:58.858Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T05:27:59.266Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T05:41:18.469Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T05:41:18.574Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T06:38:27.975Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T06:38:28.135Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T07:19:04.980Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T07:19:05.057Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T07:23:25.814Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T07:23:25.896Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T08:06:11.256Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T08:06:11.452Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T08:07:44.657Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T08:07:44.726Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T08:30:30.038Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T08:30:30.270Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T09:53:02.952Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T09:53:03.060Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T12:01:05.069Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T12:01:05.148Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T12:35:41.312Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T12:35:41.338Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T12:35:47.923Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-01T12:35:47.987Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T06:40:20.501Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T06:40:20.602Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T07:22:25.813Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T07:22:25.904Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T07:30:52.442Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T07:30:52.607Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T07:31:02.146Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T07:31:02.504Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T08:19:44.830Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T08:19:44.899Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T09:30:03.261Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T09:30:03.335Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T09:53:07.945Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T09:53:08.318Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T12:55:35.711Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T12:55:36.209Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T13:06:56.429Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-02T13:06:56.525Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T06:27:51.934Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T06:27:52.257Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T08:56:28.922Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T08:56:30.724Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:32:30.730Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:32:31.482Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:38:22.110Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:38:22.721Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:43:26.415Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:43:26.511Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:51:51.582Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T09:51:51.837Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T10:09:16.035Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T10:09:16.168Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T11:05:54.388Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-03T11:05:54.668Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\NetFlow-anti-try\NetFlow\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-05T04:16:04.562Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-05T04:16:04.637Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-05T05:16:30.760Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-05T05:16:30.827Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-05T07:19:25.622Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-05T07:19:25.688Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T06:03:36.983Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T06:03:37.028Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:11:26.384Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:11:26.425Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:17:13.153Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:17:13.186Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:25:19.661Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:27:00.317Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:27:31.616Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:28:40.883Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:29:31.128Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:29:38.433Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:29:46.771Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:33:23.221Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:33:53.565Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:36:15.252Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:40:05.661Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:40:09.667Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:40:19.538Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:42:57.406Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:43:17.342Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:45:41.273Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:47:02.296Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:48:23.345Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:49:54.540Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T11:51:27.748Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T12:39:19.258Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T12:39:47.980Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T12:41:54.068Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T12:42:05.780Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T13:00:35.017Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T13:07:35.813Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-07T13:13:49.214Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T06:32:28.113Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T07:14:06.392Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T08:19:11.870Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T09:51:32.509Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T11:16:49.249Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T11:19:13.265Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-09-09T11:20:45.300Z - Ping failed: DmsError: DMS authentication not configured
+    at dmsFetch (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:129:11)
+    at Object.ping (C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\services\dmsClient.js:169:11)
+    at C:\Users\MAman\Desktop\NetFlow All Files\Netflow UI\server\routes\organization.js:262:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
