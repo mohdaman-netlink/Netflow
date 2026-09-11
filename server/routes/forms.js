@@ -721,7 +721,11 @@ router.post('/:id/submit', protect, requirePermission('forms:submit'), requireQu
         attachmentRows.push({
           filename: v.name || f.label || 'file',
           kind: 'form_upload',
+<<<<<<< HEAD
           path: v.url || (v.s3Key ? '/api/s3/download?key=' + encodeURIComponent(v.s3Key) : ''),
+=======
+          path: v.url || (v.s3Key ? '/api/s3/download?key=' + encodeURIComponent(v.s3Key) : ''),
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
           mimetype: v.mime || '',
           size: v.size || 0,
           dmsDocId: v.dmsDocId ? String(v.dmsDocId) : null,

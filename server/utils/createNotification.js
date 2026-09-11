@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // M3 - Phase 2 - utils/createNotification.js
 // Fire-and-forget notification writer. NEVER throws — notification failure
 // must not break the action that triggered it.
@@ -35,3 +36,42 @@ const createNotification = async ({
 }
 
 module.exports = { createNotification }
+=======
+// M3 - Phase 2 - utils/createNotification.js
+// Fire-and-forget notification writer. NEVER throws — notification failure
+// must not break the action that triggered it.
+
+const Notification = require('../models/Notification')
+const User = require('../models/User')
+const { resolvePref } = require('./notificationPrefs')
+
+const createNotification = async ({
+  userId,
+  title,
+  message,
+  type,
+  taskId,
+  triggeredBy
+}) => {
+  try {
+    if (!userId) return null
+    // Respect the recipient's in-app channel preference for this event type.
+    // Untunable types always deliver (resolvePref returns on-by-default).
+    const recipient = await User.findById(userId).select('notificationPrefs').lean()
+    if (!resolvePref(recipient, type).inApp) return null
+    return await Notification.create({
+      userId,
+      title,
+      message,
+      type,
+      taskId,
+      triggeredBy
+    })
+  } catch (err) {
+    console.error('createNotification error:', err.message)
+    return null
+  }
+}
+
+module.exports = { createNotification }
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8

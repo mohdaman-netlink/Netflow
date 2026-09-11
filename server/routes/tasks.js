@@ -413,7 +413,11 @@ router.get('/:id', protect, async (req, res, next) => {
         ...out.formResponseId,
         attachments: await refreshResponseAttachments(out.formResponseId.attachments, ctx)
       }
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
     if (Array.isArray(out.priorDocuments) && out.priorDocuments.length) {
       out.priorDocuments = await Promise.all(
         out.priorDocuments.map((d) => (d?.dmsDocId ? refreshFileObject(d, ctx) : d))

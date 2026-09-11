@@ -138,7 +138,11 @@ const releaseFor = async (orgId, { responses = [], tasks = [], executions = [], 
     }
   }
   if (remoteFiles) await releaseStorage(orgId, remoteBytes, { files: remoteFiles })
+<<<<<<< HEAD
   return { bytes: local.bytes + remoteBytes, files: local.files + remoteFiles }
+=======
+  return { bytes: local.bytes + remoteBytes, files: local.files + remoteFiles }
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
 }
 
 // Whole-tenant cleanup for a deleted organization: the directory goes, and with

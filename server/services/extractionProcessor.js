@@ -382,6 +382,10 @@ module.exports = {
   renderJobPage,
   prepareExtractionAttachment,
   markExtractionConsumed,
+<<<<<<< HEAD
   releaseExtractionClaim,
+=======
+  releaseExtractionClaim,
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
   MAX_RETRIES
 }

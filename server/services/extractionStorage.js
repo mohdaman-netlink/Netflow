@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const fs = require('node:fs')
 const crypto = require('node:crypto')
 const path = require('node:path')
@@ -51,6 +52,61 @@ async function storeSource({ buffer, filename, mimetype = 'application/pdf', org
         department: 'staging',
         orgSubdomain: org.subdomain,
         ref: { id: provisionalId }
+=======
+const fs = require('node:fs')
+const crypto = require('node:crypto')
+const path = require('node:path')
+const dms = require('./dmsClient')
+const s3 = require('./s3Client')
+const { dirForOrg, safeFilename, urlFor, resolveStored, removeStored } = require('../utils/fileStore')
+const { addStorage, releaseStorage } = require('../utils/usageMeter')
+
+async function responseBuffer(response, code) {
+  if (!response.ok) {
+    const error = new Error('Stored document could not be read')
+    error.code = code
+    throw error
+  }
+  const bytes = Buffer.from(await response.arrayBuffer())
+  if (bytes.length > 25 * 1024 * 1024) {
+    const error = new Error('Stored document exceeds the configured limit')
+    error.code = 'FILE_TOO_LARGE'
+    throw error
+  }
+  return bytes
+}
+
+async function storeSource({ buffer, filename, mimetype = 'application/pdf', org, user }) {
+  const orgId = String(org._id)
+  const storedFilename = safeFilename(filename)
+  const localPath = path.join(dirForOrg(orgId), storedFilename)
+  await fs.promises.writeFile(localPath, buffer)
+
+  if (s3.isEnabled(org)) {
+    const s3Key = orgId + '/auto-fill/' + storedFilename
+    try {
+      await s3.uploadFile(org, s3Key, buffer, mimetype)
+      await fs.promises.unlink(localPath).catch(() => {})
+      return { storage: 's3', filename, mimetype, size: buffer.length, s3Key }
+    } catch (error) {
+      await fs.promises.unlink(localPath).catch(() => {})
+      throw error
+    }
+  }
+
+  if (dms.isConfiguredFor(org)) {
+    const provisionalId = crypto.randomBytes(12).toString('hex')
+    try {
+      const doc = await dms.uploadFile({
+        filePath: localPath,
+        filename,
+        mime: mimetype,
+        user,
+        org,
+        department: 'staging',
+        orgSubdomain: org.subdomain,
+        ref: { id: provisionalId }
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
       })
       await fs.promises.unlink(localPath).catch(() => {})
       try {
@@ -59,6 +115,7 @@ async function storeSource({ buffer, filename, mimetype = 'application/pdf', org
         await dms.deleteDoc(doc.id, { org, user }).catch(() => {})
         throw error
       }
+<<<<<<< HEAD
       return {
         storage: 'dms',
         filename,
@@ -73,12 +130,29 @@ async function storeSource({ buffer, filename, mimetype = 'application/pdf', org
     }
   }
 
+=======
+      return {
+        storage: 'dms',
+        filename,
+        mimetype,
+        size: buffer.length,
+        dmsDocId: doc.id,
+        path: doc.url || null
+      }
+    } catch (error) {
+      await fs.promises.unlink(localPath).catch(() => {})
+      throw error
+    }
+  }
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
   try {
     await addStorage(orgId, buffer.length)
   } catch (error) {
     await fs.promises.unlink(localPath).catch(() => {})
     throw error
   }
+<<<<<<< HEAD
   return {
     storage: 'local',
     filename,
@@ -150,6 +224,79 @@ async function attachmentFor(source, org, user) {
   }
 }
 
+=======
+  return {
+    storage: 'local',
+    filename,
+    mimetype,
+    size: buffer.length,
+    storedFilename,
+    path: urlFor(orgId, storedFilename)
+  }
+}
+
+async function loadSource(source, org, user) {
+  if (source.storage === 'local') {
+    const target = resolveStored(String(org._id), String(source.storedFilename || ''))
+    if (!target) {
+      const error = new Error('Stored document path is invalid')
+      error.code = 'SOURCE_FILE_MISSING'
+      throw error
+    }
+    return fs.promises.readFile(target.abs)
+  }
+
+  if (source.storage === 's3') {
+    const url = await s3.getPresignedDownloadUrl(org, source.s3Key)
+    return responseBuffer(await fetch(url), 'S3_SOURCE_UNAVAILABLE')
+  }
+
+  if (source.storage === 'dms') {
+    const url = await dms.signedUrl(source.dmsDocId, { mode: 'download', org, user })
+    return responseBuffer(await fetch(url), 'DMS_SOURCE_UNAVAILABLE')
+  }
+
+  const error = new Error('Unknown extraction storage backend')
+  error.code = 'SOURCE_FILE_MISSING'
+  throw error
+}
+
+async function deleteSource(source, org, user) {
+  if (!source) return
+  if (source.storage === 'local') {
+    const removed = await removeStored(String(org._id), String(source.storedFilename || ''))
+    if (removed) await releaseStorage(org._id, source.size || 0)
+  } else if (source.storage === 's3' && source.s3Key) {
+    await s3.deleteFile(org, source.s3Key)
+  } else if (source.storage === 'dms' && source.dmsDocId) {
+    await dms.deleteDoc(source.dmsDocId, { org, user })
+    await releaseStorage(org._id, source.size || 0)
+  }
+}
+
+async function attachmentFor(source, org, user) {
+  let pathValue = source.path || ''
+  if (source.storage === 'local' && source.storedFilename) {
+    pathValue = urlFor(org._id, source.storedFilename)
+  } else if (source.storage === 's3' && source.s3Key) {
+    pathValue = '/api/s3/download?key=' + encodeURIComponent(source.s3Key)
+  } else if (source.storage === 'dms' && source.dmsDocId) {
+    pathValue = await dms.signedUrl(source.dmsDocId, { mode: 'view', org, user }).catch(() => source.path || '')
+  }
+
+  return {
+    kind: 'auto_fill_source',
+    filename: source.filename,
+    path: pathValue,
+    mimetype: source.mimetype || 'application/pdf',
+    size: source.size || 0,
+    dmsDocId: source.dmsDocId || null,
+    s3Key: source.s3Key || null,
+    provisionalId: null
+  }
+}
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
 module.exports = {
   storeSource,
   loadSource,

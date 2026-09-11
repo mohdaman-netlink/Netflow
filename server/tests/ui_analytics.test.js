@@ -1,9 +1,17 @@
 // ANA (UI) — the analytics CSV, Excel and PDF exports.
+<<<<<<< HEAD
 //
 // The files are built in the browser and never
 // touch the server, so analytics_audit.test.js cannot see them. Here the export
 // is actually triggered, the download captured and the file opened.
 
+=======
+//
+// The files are built in the browser and never
+// touch the server, so analytics_audit.test.js cannot see them. Here the export
+// is actually triggered, the download captured and the file opened.
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
 const fs = require('fs')
 const path = require('path')
 const XLSX = require('../../frontend/node_modules/xlsx')
@@ -11,6 +19,7 @@ const h = require('./lib/harness')
 const u = require('./lib/uiHarness')
 const { runWithOrgId, Task } = h
 const { inspectDocument, renderDocumentPage } = require('../services/mupdfClient')
+<<<<<<< HEAD
 
 const TCS = ['ANA-008', 'ANA-009', 'ANA-019', 'ANA-020']
 
@@ -43,13 +52,52 @@ h.runSuite('ui_analytics', async () => {
 
   const browser = await u.launch()
   try {
+=======
+
+const TCS = ['ANA-008', 'ANA-009', 'ANA-019', 'ANA-020']
+
+const openExportMenu = async (page) => {
+  await page.locator('.nf-analytics-export-trigger').click()
+  await page.waitForSelector('[role="menu"][aria-label="Export format"]', { timeout: 10000 })
+}
+
+h.runSuite('ui_analytics', async () => {
+  if (!(await u.frontendUp())) return u.skipAll(TCS, u.unavailableReason())
+
+  const org = await h.createOrg('uiana')
+  const manager = await h.createUser(org, {
+    name: 'UI Ana Manager', email: h.emailIn(org, 'uiana-mgr'), roleName: 'Manager'
+  })
+  const employee = await h.createUser(org, {
+    name: 'UI Ana Employee', email: h.emailIn(org, 'uiana-emp'), roleName: 'Employee',
+    managerId: manager._id
+  })
+  const token = await h.getToken({ email: manager.email })
+
+  // A little resolved history so the export has rows rather than only headers.
+  const mk = (extra) => runWithOrgId(org._id, () => Task.create({
+    title: 'Ana task', type: 'IT', assignedTo: manager._id, submittedBy: employee._id, ...extra
+  }))
+  await mk({ status: 'approved', completedAt: new Date() })
+  await mk({ status: 'approved', completedAt: new Date() })
+  await mk({ status: 'rejected', completedAt: new Date() })
+  await mk({ status: 'pending' })
+
+  const browser = await u.launch()
+  try {
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
     const { context, page } = await u.session(browser, { token, workspace: org.subdomain })
     await context.addInitScript((userId) => {
       localStorage.setItem(`fs.userGuide.completed.${userId}`, '1')
     }, String(manager._id))
     await u.goto(page, '/analytics')
+<<<<<<< HEAD
     await page.waitForSelector('button:has-text("Export")', { timeout: 20000 })
     // The menu is disabled until the summary endpoints resolve.
+=======
+    await page.waitForSelector('button:has-text("Export")', { timeout: 20000 })
+    // The menu is disabled until the summary endpoints resolve.
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
     await page.waitForFunction(
       () => ![...document.querySelectorAll('button')]
         .find((b) => b.textContent.trim() === 'Export')?.disabled,
@@ -82,6 +130,7 @@ h.runSuite('ui_analytics', async () => {
         `headers were "${departmentHeaders.replace(/\s+/g, ' ')}"`)
     }
 
+<<<<<<< HEAD
     // ── ANA-008 — CSV export ────────────────────────────────────────────────
     {
       await openExportMenu(page)
@@ -91,6 +140,17 @@ h.runSuite('ui_analytics', async () => {
       h.check('ANA-008', 'The CSV export downloads a .csv named after the selected range',
         /^analytics-.*\.csv$/.test(dl.name), `filename "${dl.name}"`)
 
+=======
+    // ── ANA-008 — CSV export ────────────────────────────────────────────────
+    {
+      await openExportMenu(page)
+      const dl = await u.captureDownload(page, () =>
+        page.getByRole('menuitem', { name: /CSV/i }).click())
+
+      h.check('ANA-008', 'The CSV export downloads a .csv named after the selected range',
+        /^analytics-.*\.csv$/.test(dl.name), `filename "${dl.name}"`)
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
       const text = fs.readFileSync(dl.path, 'utf8').replace(/^\ufeff/, '')
       const lines = text.trim().split(/\r?\n/)
       const csvBook = XLSX.read(text, { type: 'string' })
@@ -179,6 +239,7 @@ h.runSuite('ui_analytics', async () => {
       await openExportMenu(page)
       const dl = await u.captureDownload(page, () =>
         page.getByRole('menuitem', { name: /PDF/i }).click())
+<<<<<<< HEAD
 
       h.check('ANA-009', 'The PDF export downloads a .pdf named after the selected range',
         /^analytics-.*\.pdf$/.test(dl.name), `filename "${dl.name}"`)
@@ -188,6 +249,17 @@ h.runSuite('ui_analytics', async () => {
         buf.subarray(0, 5).toString() === '%PDF-' && buf.length > 1000,
         `${buf.length} bytes, header "${buf.subarray(0, 5).toString()}"`)
 
+=======
+
+      h.check('ANA-009', 'The PDF export downloads a .pdf named after the selected range',
+        /^analytics-.*\.pdf$/.test(dl.name), `filename "${dl.name}"`)
+
+      const buf = fs.readFileSync(dl.path)
+      h.check('ANA-009', 'The downloaded file is a real PDF, not an empty or broken blob',
+        buf.subarray(0, 5).toString() === '%PDF-' && buf.length > 1000,
+        `${buf.length} bytes, header "${buf.subarray(0, 5).toString()}"`)
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
       const inspected = await inspectDocument(buf, 'application/pdf')
       const extractedText = inspected.pages
         .flatMap((pdfPage) => pdfPage.lines.map((line) => line.text))
@@ -216,7 +288,11 @@ h.runSuite('ui_analytics', async () => {
         fs.copyFileSync(dl.path, path.join(previewDir, dl.name))
         fs.writeFileSync(path.join(previewDir, 'analytics-report-page-1.png'), Buffer.from(rendered.png))
       }
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
       fs.unlinkSync(dl.path)
     }
 
@@ -273,7 +349,14 @@ h.runSuite('ui_analytics', async () => {
     }
 
     await context.close()
+<<<<<<< HEAD
   } finally {
     await browser.close()
   }
 })
+=======
+  } finally {
+    await browser.close()
+  }
+})
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8

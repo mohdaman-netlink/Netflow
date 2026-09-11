@@ -225,7 +225,11 @@ router.post('/forms/:token/submit', rateLimit, async (req, res, next) => {
         await releaseExtractionClaim(preparedExtraction.job._id, reservedResponseId).catch(() => {})
       }
       throw error
+<<<<<<< HEAD
     })
+=======
+    })
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
 
     await meterSubmission(form.orgId)
 

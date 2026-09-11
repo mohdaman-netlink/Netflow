@@ -186,4 +186,8 @@ parentPort.on('message', ({ operation, buffer, mimetype, pageNumber, scale }) =>
       }
     })
   }
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8

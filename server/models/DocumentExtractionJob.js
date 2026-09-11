@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const mongoose = require('mongoose')
 
 const sourceRegionSchema = new mongoose.Schema({
@@ -11,6 +12,21 @@ const sourceRegionSchema = new mongoose.Schema({
   confidence: { type: Number, default: 0 }
 }, { _id: false })
 
+=======
+const mongoose = require('mongoose')
+
+const sourceRegionSchema = new mongoose.Schema({
+  lineId: { type: String, required: true },
+  page: { type: Number, required: true },
+  x: { type: Number, required: true },
+  y: { type: Number, required: true },
+  width: { type: Number, required: true },
+  height: { type: Number, required: true },
+  text: { type: String, default: '' },
+  confidence: { type: Number, default: 0 }
+}, { _id: false })
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
 const suggestionSchema = new mongoose.Schema({
   fieldId: { type: String, required: true },
   value: { type: mongoose.Schema.Types.Mixed },
@@ -31,6 +47,7 @@ const suggestionSchema = new mongoose.Schema({
     default: 'text'
   },
   valid: { type: Boolean, default: false },
+<<<<<<< HEAD
   validationMessage: { type: String, default: null },
   sourceRegions: { type: [sourceRegionSchema], default: [] }
 }, { _id: false })
@@ -39,12 +56,23 @@ const documentExtractionJobSchema = new mongoose.Schema({
   orgId: { type: mongoose.Schema.Types.ObjectId, ref: 'Organization', required: true, index: true },
   formId: { type: mongoose.Schema.Types.ObjectId, ref: 'Form', required: true, index: true },
   requesterId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null, index: true },
+=======
+  validationMessage: { type: String, default: null },
+  sourceRegions: { type: [sourceRegionSchema], default: [] }
+}, { _id: false })
+
+const documentExtractionJobSchema = new mongoose.Schema({
+  orgId: { type: mongoose.Schema.Types.ObjectId, ref: 'Organization', required: true, index: true },
+  formId: { type: mongoose.Schema.Types.ObjectId, ref: 'Form', required: true, index: true },
+  requesterId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null, index: true },
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
   audience: { type: String, enum: ['authenticated', 'public'], required: true },
   languageMode: {
     type: String,
     enum: ['english', 'english_hindi', 'hindi'],
     default: 'english_hindi'
   },
+<<<<<<< HEAD
   accessTokenHash: { type: String, default: null, select: false },
   sourceFile: {
     filename: { type: String, required: true },
@@ -68,11 +96,37 @@ const documentExtractionJobSchema = new mongoose.Schema({
   claimedAt: { type: Date, default: null },
   pageCount: { type: Number, default: 0 },
   pageMeta: { type: [mongoose.Schema.Types.Mixed], default: [] },
+=======
+  accessTokenHash: { type: String, default: null, select: false },
+  sourceFile: {
+    filename: { type: String, required: true },
+    mimetype: { type: String, default: 'application/pdf' },
+    size: { type: Number, required: true },
+    storage: { type: String, enum: ['local', 'dms', 's3'], required: true },
+    path: { type: String, default: null },
+    storedFilename: { type: String, default: null },
+    dmsDocId: { type: String, default: null },
+    s3Key: { type: String, default: null }
+  },
+  status: {
+    type: String,
+    enum: ['queued', 'security_scan', 'inspecting', 'extracting_text', 'ocr_processing', 'mapping_fields', 'validating', 'ready', 'failed', 'cancelled'],
+    default: 'queued',
+    index: true
+  },
+  stage: { type: String, default: 'Queued for processing' },
+  progress: { type: Number, min: 0, max: 100, default: 0 },
+  attempts: { type: Number, default: 0 },
+  claimedAt: { type: Date, default: null },
+  pageCount: { type: Number, default: 0 },
+  pageMeta: { type: [mongoose.Schema.Types.Mixed], default: [] },
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
   lines: { type: [mongoose.Schema.Types.Mixed], default: [], select: false },
   templateFingerprint: { type: String, default: null },
   documentType: { type: String, maxlength: 80, default: 'document' },
   criticStatus: { type: String, enum: ['validated', 'unavailable', 'fallback'], default: 'fallback' },
   suggestions: { type: [suggestionSchema], default: [] },
+<<<<<<< HEAD
   summary: {
     high: { type: Number, default: 0 },
     medium: { type: Number, default: 0 },
@@ -80,14 +134,32 @@ const documentExtractionJobSchema = new mongoose.Schema({
   },
   errorCode: { type: String, default: null },
   errorDetail: { type: String, default: null, select: false },
+=======
+  summary: {
+    high: { type: Number, default: 0 },
+    medium: { type: Number, default: 0 },
+    low: { type: Number, default: 0 }
+  },
+  errorCode: { type: String, default: null },
+  errorDetail: { type: String, default: null, select: false },
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
   consumedResponseId: { type: mongoose.Schema.Types.ObjectId, ref: 'FormResponse', default: null },
   consumedAt: { type: Date, default: null },
   feedbackProcessedAt: { type: Date, default: null },
   feedbackResponseId: { type: mongoose.Schema.Types.ObjectId, ref: 'FormResponse', default: null },
   expiresAt: { type: Date, required: true, index: true }
+<<<<<<< HEAD
 }, { timestamps: true })
 
 documentExtractionJobSchema.index({ status: 1, createdAt: 1 })
 documentExtractionJobSchema.plugin(require('../tenancy/orgScopePlugin'))
 
 module.exports = mongoose.model('DocumentExtractionJob', documentExtractionJobSchema)
+=======
+}, { timestamps: true })
+
+documentExtractionJobSchema.index({ status: 1, createdAt: 1 })
+documentExtractionJobSchema.plugin(require('../tenancy/orgScopePlugin'))
+
+module.exports = mongoose.model('DocumentExtractionJob', documentExtractionJobSchema)
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8

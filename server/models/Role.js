@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 // M1 - Phase 2 - models/Role.js
 // Organization-owned role catalogue. SuperAdmin is the only platform role and
 // intentionally has no orgId; every workspace role is tenant scoped.
 
 const mongoose = require('mongoose')
 
+=======
+// M1 - Phase 2 - models/Role.js
+// Organization-owned role catalogue. SuperAdmin is the only platform role and
+// intentionally has no orgId; every workspace role is tenant scoped.
+
+const mongoose = require('mongoose')
+
+>>>>>>> 23f6249ac261c7908be2e120359f8eb01770d5e8
 const roleSchema = new mongoose.Schema({
   orgId: { type: mongoose.Schema.Types.ObjectId, ref: 'Organization', index: true },
   name: {
